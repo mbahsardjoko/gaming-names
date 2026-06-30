@@ -1,0 +1,8 @@
+name = "gaming-names"
+type = "javascript"
+account_id = "ee3ec637f9ec77374ab017812fff4864"
+
+[env.production]
+routes = [
+  { pattern = "gaming-names.pages.dev", zone_name = "pages.dev" }
+]
